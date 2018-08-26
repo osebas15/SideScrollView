@@ -64,7 +64,7 @@ open class SideScrollView: UIView {
     }
     
     
-    public init(frame: CGRect, textArray: [String]) {
+    required public init(frame: CGRect, textArray: [String] = [String]()) {
         super.init(frame: frame)
         
         self.textArray = textArray
@@ -72,7 +72,7 @@ open class SideScrollView: UIView {
         setUpSubviews(frame: frame)
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
