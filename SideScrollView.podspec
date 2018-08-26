@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '11.0'
 s.name = "SideScrollView"
 s.summary = "just a view for showing text in a button based side scroller"
 s.requires_arc = true
