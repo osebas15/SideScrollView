@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9E0BC96621325018009944F3 /* SideScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0BC96421325018009944F3 /* SideScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0BC96D21325032009944F3 /* SideScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0BC96C21325032009944F3 /* SideScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E0BC96121325018009944F3 /* SideScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0BC96421325018009944F3 /* SideScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideScrollView.h; sourceTree = "<group>"; };
 		9E0BC96521325018009944F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0BC96C21325032009944F3 /* SideScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				9E0BC96421325018009944F3 /* SideScrollView.h */,
+				9E0BC96C21325032009944F3 /* SideScrollView.swift */,
 				9E0BC96521325018009944F3 /* Info.plist */,
 			);
 			path = SideScrollView;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					9E0BC96021325018009944F3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0BC96D21325032009944F3 /* SideScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 		9E0BC96A21325018009944F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SC.SideScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		9E0BC96B21325018009944F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
