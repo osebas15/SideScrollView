@@ -2,8 +2,8 @@
 //  SideScrollView.swift
 //  PDIS
 //
-//  Created by Sebastian Aguirre on 8/17/17.
-//  Copyright © 2017 PRID. All rights reserved.
+//  Created by Sebastian Aguirre on 8/17/18.
+//  Copyright © 2018 SeaCap. All rights reserved.
 //
 
 import UIKit
